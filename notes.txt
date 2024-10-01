@@ -1,0 +1,35 @@
+REACT - Genera confianza para los clientes
+    - es solamente una librería (se puede incluir en cualquier momento dentro de un proyecto)
+
+vitejs: genera un código ya listo para trabajar (vite es super rapido)
+    -bandler: los navegadores solo entiende javascript (hacen un bandel de nuestra app para que el navegador lo pueda entender)
+        -sacude el arbol (caen las manzanas): aligera el poryecto (peso informatico)
+        .ugly fine: nuestro codigo se hace feo (encripta en forma dificil para desencriptar (literal lo que digo de todo lo pone pegado xd))
+        -transplila el código: el lenguajer que sea, con las tecnologias que sean, transforma todo el código en javascript (ES6)
+            -ES6 - ecma script 6: serie de reglas, normas del bandel, para enviar solo lo que necesitamos
+    -hot module swap: solo los componentes que se codifican se renderizan (por ejemplo cuando cambiamos colores)
+
+** diferencia entre dependencies y devDependencies
+    -dependencies: todo lo necesario para que nuestra app funcione
+    -devDependencies: solo lo que usamos cuando vamosa codificar
+
+
+**COPMO FUNCIONA LO QUE INCIO DE REACT CUANDO
+en el index está importado el main.js
+
+createRoot(document.getElementById('root')!).render(
+  <StrictMode>
+    <App /> 
+  </StrictMode>,
+  //voy a englobar toda mi aplicadion 'App' con react, estamos implementando reacto, esto es todo lo que hace
+  //esto es una SPA, es decir, el browser solo va a ver el html
+)
+
+-como jugar con react
+componentizar todo
+cada applicacion de react debe estar compuesta por diferentes partes
+-front
+    -pages: home/about us/ login, etc
+        -se crea una carpeta para cada pagina
+            -se crea el componente jsx
+                -un componente es una funcion
