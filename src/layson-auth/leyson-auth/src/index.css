@@ -1,0 +1,26 @@
+/* variables de entorno y configuraciones generales globales*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: red; */
+}
+
+:root{
+    --primary-color: #333;
+    --secondary-color: #f1f1f1;
+    --font-family: Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color);
+    font-family: var(--font-family);
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}

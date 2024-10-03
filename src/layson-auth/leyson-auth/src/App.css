@@ -1,0 +1,19 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-auth{
+    border: 1px solid #ccc;
+    box-shadow: #333030 0 1px 1px;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 2rem;
+
+    input {
+        padding: 1rem;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}
